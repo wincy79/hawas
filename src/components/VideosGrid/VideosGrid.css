@@ -1,0 +1,43 @@
+.container {
+  background-color: var(--clr-bg-2);
+}
+.outer-grid {
+  margin-left: 13em;
+}
+.video-outer-grid {
+  min-height: 100vh;
+  width: 100%;
+}
+.video-grid {
+  display: grid;
+  background-color: var(--clr-bg-2);
+  justify-content: space-around;
+  gap: 1em;
+  padding: 1em;
+  grid-template-columns: repeat(3, 25vw);
+}
+
+@media only screen and (max-width: 71.875em) {
+  .video-grid {
+    grid-template-columns: repeat(3, 23vw);
+  }
+}
+@media only screen and (max-width: 60em) {
+  .video-grid {
+    grid-template-columns: repeat(2, 40vw);
+  }
+
+  .outer-grid {
+    margin-left: 5em;
+  }
+}
+@media only screen and (max-width: 42.375em) {
+  .outer-grid {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .video-grid {
+    grid-template-columns: repeat(1, 100vw);
+  }
+}
