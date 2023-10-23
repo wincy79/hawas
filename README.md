@@ -33,10 +33,6 @@ React, Redux-toolkit, RTK-query, Vanilla CSS and Auth using JWT
 - Filter videos by tags
 - History of watched videos 
 
-### Connect With Me
-- Twitter – [@avinash_prj](https://twitter.com/avinash_prj)
-- LinkedIn – [/avinashprajapati](https://www.linkedin.com/in/avinashprajapati914/)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
