@@ -44,7 +44,7 @@ export const Navbar = ({ setSkip }) => {
     <nav className="navbar flex-nav">
       <div className="nav-left flex-al-center">
         <Link to="/" className="nav-logo">
-          Nucleus
+          Shed
         </Link>
       </div>
       <div className="nav-middle flex-al-center">
